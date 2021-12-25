@@ -1,9 +1,29 @@
-theme = "reveal-hugo"
+## -----------------------------------------------
+## Basic Configuration
+## -----------------------------------------------
 
-[markup.goldmark.renderer]
-unsafe = true
+title = "World Folk Stories"
+theme = "hugo-story"
 
-[outputFormats.Reveal]
-baseName = "index"
-mediaType = "text/html"
-isHTML = true
+
+## -----------------------------------------------
+## Hugo Built-in Features
+## -----------------------------------------------
+
+disableKinds = ["taxonomy", "taxonomyTerm", "section"]
+# googleAnalytics = "your-google-analytics-id"
+
+
+## -----------------------------------------------
+## Site Parameters
+## -----------------------------------------------
+
+[Params]
+  description = ""
+  logo = "images/banner.jpg"
+  favicon = true
+
+[Params.social]
+  twitter = "https://twitter.com/DesignHenk"
+  email = "stories@henkjurriens.nl"
+  instagram = "https://instagram.com/design.henk"
