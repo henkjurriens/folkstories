@@ -23,7 +23,8 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
   logo = "images/banner.jpg"
   favicon = true
 
-[Params.social]
+  [Params.social]
   twitter = "https://twitter.com/DesignHenk"
   email = "stories@henkjurriens.nl"
-  instagram = "https://instagram.com/design.henk"
+  instagram = "https://instagram.com/DesignHenk"
+ 

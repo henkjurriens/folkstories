@@ -4,7 +4,4 @@ id: "first"
 title : "More to come"
 content: |
   
-button: 
-  label: "Learn More"
-  link: "#"
 image: "images/spotlight03.jpg"
