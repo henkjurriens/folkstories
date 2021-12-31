@@ -5,6 +5,20 @@
 title = "World Folk Stories"
 theme = "hugo-story"
 
+defaultContentLanguage = 'en'
+[languages]
+  [languages.nl]
+    title = 'Wereld volksverhalen'
+    contentDir = 'content/nl'
+    weight = 2
+     languageName = 'Nederlands'
+  [languages.en]
+    title = "World Folk Stories"
+    weight = 1
+     languageName = 'English'
+    [languages.en.params]
+      linkedin = 'https://linkedin.com/whoever'
+
 
 ## -----------------------------------------------
 ## Hugo Built-in Features
@@ -20,7 +34,7 @@ disableKinds = ["taxonomy", "taxonomyTerm", "section"]
 
 [Params]
   description = ""
-  logo = "images/banner.jpg"
+  logo = "images/banner-cage.png"
   favicon = true
 
   [Params.social]

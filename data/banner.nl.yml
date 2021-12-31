@@ -1,13 +1,12 @@
 ####################### Banner #########################
 style: "style1 orient-left content-align-left image-position-right fullscreen onload-image-fade-in onload-content-fade-right"
-title : "Wereld volksverhalen"
-
+title : "World Folk Stories"
 subtitle: |
-  Volksverhalen van over de hele wereld
+  Folk stories form all over the world
 content : |
  
 button:
-  label : "Download het eerste verhaal"
-  link : "https://henkjurriens.gumroad.com/l/spiegel"
-image : "images/globe.png"
+  label : "Get Started"
+  link : "#first"
+image : "images/cage.png"
 
